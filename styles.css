@@ -46,6 +46,10 @@ body {
     flex: 2;
 }
 
+a {
+    color: black;
+}
+
 @media only screen and (max-width: 900px) {
     #everything {
       flex-direction: column;
