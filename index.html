@@ -9,17 +9,21 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div id="info">
-        <h1 id="title">Tony's Etch-a-Sketch</h1>
-        <p id="myname">Coded and styled by Antônio Moraes</p>
-        <button id="clearbutton" type="button" onclick="clearGrid()">Clear</button>
+    <div id="everything">
+        <div id="info">
+            <h1>Tony's Etch-a-Sketch</h1>
+            <p>Coded and styled by Antônio Moraes</p>
+            <button id="clearbutton" type="button" onclick="clearGrid()">Clear</button>
+        </div>
+        <div id="game">
+            <div id="grid"></div>
+            <div id="form"><form>
+                <label for="fsquares">Number of squares:</label>
+                <input type="text" id="fsquares" name="fsquares">
+                <input type="submit" value="Submit">
+            </form></div>
+        </div>
+        <br>
     </div>
-    <div id="grid"></div>
-    <div id="form"><form>
-        <label for="fsquares">Number of squares:</label>
-        <input type="text" id="fsquares" name="fsquares">
-        <input type="submit" value="Submit">
-    </form></div>
-    <br>
 </body>
 </html>
